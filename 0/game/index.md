@@ -1,0 +1,42 @@
+---
+layout: files
+title: 0/game
+---
+- assets
+	- [bg-city-busstop.png]({{site.url}}/0/game/assets/bg-city-busstop.png)
+	- [bg-city-house-bedroom.png]({{site.url}}/0/game/assets/bg-house-bedroom.png)
+	- [bg-city-school-campus.png]({{site.url}}/0/game/assets/bg-school-dorm-dark.png)
+	- [bg-city-school-dorm-light.png]({{site.url}}/0/game/assets/bg-city-school-dorm-light.png)
+	- [bg-city-school-hall.png]({{site.url}}/0/game/assets/bg-city-school-hall.png)
+	- [bg-shop0.png]({{site.url}}/0/game/assets/bg-shop0.png)
+	- [bg-shop1.png]({{site.url}}/0/game/assets/bg-shop1.png)
+	- [bg-shop2.png]({{site.url}}/0/game/assets/bg-shop2.png)
+	- [bg-shop3.png]({{site.url}}/0/game/assets/bg-shop3.png)
+	- [bg-shop4.png]({{site.url}}/0/game/assets/bg-shop4.png)
+	- [bg-shop-outer.png]({{site.url}}/0/game/assets/bg-shop-outer.png)
+	- [cg-flashback-concept.png]({{site.url}}/0/game/assets/cg-flashback-concept.png)
+	- [cg-k.png]({{site.url}}/0/game/assets/cg-k.png)
+	- [cg-r.png]({{site.url}}/0/game/assets/cg-r.png)
+	- [cg-uhoh.png]({{site.url}}/0/game/assets/cg-uhoh.png)
+	- [concept-club.png]({{site.url}}/0/game/assets/concept-club.png)
+	- [concept-diamond.png]({{site.url}}/0/game/assets/concept-diamond.png)
+	- [item-3.png]({{site.url}}/0/game/assets/item-3.png)
+	- [layout-2.png]({{site.url}}/0/game/assets/layout-2.png)
+	- [layout-3.png]({{site.url}}/0/game/assets/layout-3.png)
+	- [menu.png]({{site.url}}/0/game/assets/menu.png)
+	- [overlay-indoor.png]({{site.url}}/0/game/assets/overlay-indoor.png)
+	- [ui-buttons.png]({{site.url}}/0/game/assets/ui-buttons.png)
+	- [ui-text.png]({{site.url}}/0/game/assets/ui-text.png)
+- bonus
+	- [day2]({{site.url}}/0/game/bonus/day2/1)
+- [day1-s2.png]({{site.url}}/0/game/day1/d1-s2.png)
+- [day2 scene3]({{site.url}}/0/game/day2/scene3)
+- [day4 -]({{site.url}}/0/game/day4/-)
+- day5
+	- [profile-c]({{site.url}}/0/game/day5/profile-c)
+	- [profile-k]({{site.url}}/0/game/day5/profile-k)
+	- [profile-r]({{site.url}}/0/game/day5/profile-r)
+	- [profile-v]({{site.url}}/0/game/day5/profile-v)
+- day8
+	- [- (2)]({{site.url}}/0/game/day8/- (2))
+	- [readme-ifyouwant.txt]({{site.url}}/0/game/day8/readme-ifyouwant.txt)

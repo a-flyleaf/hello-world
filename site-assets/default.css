@@ -1,0 +1,39 @@
+*{margin:0; padding:0; box-sizing:border-box; word-wrap:break-word;}
+header,section,footer,aside,nav,main,article,figure{display:block;}
+body{overflow-x:hidden; background:#000; color:#fff; font-family:Consolas,monospace; line-height:135%;}
+::selection{background:rgba(128,128,128,.5);}
+a.index{text-decoration:none; color:inherit;} a.index:hover,a.index:focus{opacity:.5;}
+img{max-width:100%; height:auto; display:block;}
+hr{border:0; background:#000; width:100%; height:.25rem;}
+p{margin:.5em 0;}
+.x{position:absolute; left:-999px; width:1px; height:1px; top:auto; overflow:hidden;} /*this is an accessibility hack*/
+
+nav{text-align:right;} nav a{display:inline-block;} nav a:hover, nav a:focus{opacity:.5;}
+
+.game header{background:#fff; color:#000; padding:.5em 1em;} .game h1{font-size:.85em; font-weight:normal; color:#808080; font-style:italic;}
+.game main{max-width:642px; margin:0 auto;} .game img{margin:3rem 0; margin:20vw 0; background:#fff; color:#000;} .game nav img{display:inline; background:0; margin:0 0 1.5rem; padding-right:1.5em;}
+.j{font-style:italic;}
+.script{background:#fff; color:#000; padding:.5rem 1.5rem; margin:1.5rem 1rem;} .script  blockquote{margin-left:2em;} .code{color:#808080;}
+
+.scene{background:#fff; color:#000;} .scene img{display:block; margin:.5rem auto; margin:5rvw 0; padding:0 .75rem;} .scene nav{max-width:1280px; margin:0 auto; padding-bottom:.5rem; padding-bottom:5vw;} .scene nav img{display:inline; margin:0;}
+
+.blank{max-width:640px; margin:0 auto; padding:.5rem 1rem;} .blank a:focus{outline:#fff 1px dotted;} .blank nav{margin-top:3rem;} .blank nav img{display:inline;}
+
+@media only screen and (min-width:640px){
+	hr{height:.5rem;}
+	.game h1{max-width:640px; margin:0 auto;}
+	.game img{margin:5rem 0;}
+	.script{margin:1.5rem auto;}
+	.scene nav{padding-bottom:1rem; padding-bottom:5vw;} .scene img{margin:1rem auto; margin:5vw auto;}
+	.game nav img{padding:0;}
+	.blank{padding:.5rem 0;}
+}
+
+@media only screen and (min-width:1296px){
+	hr{height:12px;}
+	.scene{padding:0;}
+	.scene img{margin:3rem auto;}
+	.scene nav{margin-bottom:2rem; padding-bottom:0;}
+}
+
+.wide img,.wide source{margin:0 auto; padding:0;}

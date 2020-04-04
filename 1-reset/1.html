@@ -1,0 +1,32 @@
+---
+layout: default
+title: reset
+pagetype: scene
+css: .scene img{margin:0 auto; padding:0;} img.wide{max-height:100vh;} .grid{max-width:1280px; margin:0 auto; line-height:0;} .grid img{display:inline; width:50%;} img.small{display:none;} hr{height:116px; background:url(img/08.png); background-repeat:repeat;} .title{max-width:1280px; margin:0 auto; padding:5rem 0 0 1em;} h2{font-size:3rem; font-size:20vw;} h1{font-size:4rem; font-size:25vw; margin:1.5rem 0 0 1.75rem; margin:.5em 0 0 10vw;} .title img{margin-top:5em;} .scene nav{margin-top:-36px; padding-right:1em;} @media only screen and (min-width:640px){img.small{display:inline;} img.full{display:none;} .two{width:50%; display:inline-block;} h2{font-size:7em;} h1{font-size:9em; margin-left:.35em;} .col:nth-child(2){float:right;}} @media only screen and (min-width:950px){.title{padding-top:20em; padding-top:40vh;} .col{display:inline-block; width:50%;} .col:first-child{margin-top:8.75em;} .title img{margin-top:0;} .scene nav{padding:0;}}
+---
+<div style="background:#000;">
+<figure><picture><source media="(max-width:640px)" srcset="img/00-640.png"/><img src="img/00-full.png" alt="" class="wide"/></picture>
+	<figcaption class="x"><p>Four characters look at the camera through a laptop webcam. At the keyboard sits a young person, sticking his tongue out cartoonishly. Behind him stand three figures; the first (from left) smiles, one hand on the shoulder of the second, who appears tense. The third person’s eyebrows are raised.</p></figcaption>
+</figure>
+<img src="img/01.gif" alt=""/>
+	<div class="x"><p>The phrase “hello-world” is typed into a black screen.</p></div>
+{%include panel.html 0="02" x="<p>The typer presses Enter.</p>"%}
+<img src="img/04.gif" alt="" class="wide"/>
+	<div class="x"><p>The cursor flashes on a new line.</p></div>
+{%include panel.html 0="05" x="<p>Nothing happened. The second and third person glare at the first, who’s unpleasantly surprised; the typer frowns.</p>"%}
+<img src="img/06.gif" alt=""/>
+	<div class="x"><p>The flashing cursor taunts them.</p></div>
+<div class="grid"><div class="two"><img src="img/0000.png" alt="" width="320px" height="320px"/><img src="img/07-01.png" alt=""/></div><div class="two"><img src="img/07-00.gif" alt="" class="small"/><img src="img/07-02.png" alt=""/><img src="img/07-00.gif" alt="" class="full"/></div><div class="two"><img src="img/0000.png" alt="" width="320px" height="320px" class="full"/><img src="img/07-03.png" alt=""/><img src="img/0000.png" alt="" class="small"/></div><div class="two"><img src="img/07-04.png" alt=""/><img src="img/07-00.gif" alt=""/></div><div class="two"><img src="img/0000.png" alt="" width="320px" height="320px"/><img src="img/07-05.png" alt=""/></div><div class="two"><img src="img/07-06.png" alt=""/><img src="img/0000.png" alt="" width="320px" height="320px" class="full"/><img src="img/0000.png" alt="" class="full"/><img src="img/07-07.png" alt=""/></div><div class="two"><img src="img/07-08.png" alt=""/><img src="img/07-09.png" alt=""/></div><div class="two"><img src="img/000.png" alt="" class="full"/><img src="img/0000.png" alt=""/><img src="img/0000.png" alt="" class="full"/><img src="img/07-10.png" alt="" width="320px" height="320px"/></div></div>
+	<div class="x"><p>Further smashing of the Enter key does nothing, to everyone’s displeasure.</p><p>A file menu shows three items: an “archive” folder, an “assets” folder, and “reset(3).exe,” the latter of which is selected. The archive folder suddenly fades and disappears; reset(3).exe vanishes shortly after.</p></div>
+</div>
+<hr/>
+<div class="title">
+	<div class="col">
+		<h2><a href="{{site.url}}" class="index">/404</a></h2>
+		<h1>reset</h1>
+	</div><div class="col">
+		<img src="img/09.png" alt=""/>
+			<div class="x"><p>Zooming out, the four are gathered around one end of a table. The typist speaks: “Now what.”</p></div>
+		{%include nav.html next="../about"%}
+	</div>
+</div>
