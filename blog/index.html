@@ -1,0 +1,9 @@
+---
+layout: dev
+title: blog
+pagetype: blank dev
+---
+{% for post in site.posts reversed %}<hr/><article>
+	<h2>{{post.date|date:"%Y-%m-%d"}}</h2>
+	{{post.content}}
+</article>{% endfor %}
