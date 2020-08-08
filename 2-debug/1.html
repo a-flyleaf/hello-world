@@ -2,16 +2,24 @@
 layout: default
 title: debug
 pagetype: scene
-css: img.wide{max-height:100vh; margin:0 auto; padding:0;} figure:nth-of-type(2){margin-bottom:-.5em;}
+css: img.wide{max-height:100vh; margin:0 auto; padding:0;} figure:nth-of-type(2){margin-bottom:-.5em;} .scene{background:#000;} .fade{background:#fff; background:linear-gradient(to top,#000,#fff 34em); padding-bottom:35em;} .scene nav{max-width:640px;} .titlecard{margin:1rem 0; text-align:center; line-height:0; padding-bottom:1rem;} .titlecard div,.titlecard img{display:inline; margin:0; padding:0;} .titlecard a:focus{outline:0;} .titlecard img:hover{opacity:0; outline:0;} .titlecard div{display:inline-block;} .tc1{background-image:url(title1-h.png);}.tc2{background-image:url(title2-h.png);}
 ---
-<figure><picture><source media="(max-width:640px)" srcset="img/00-640.png"/><img src="img/00-full.png" alt="" class="wide"/></picture>
-	<figcaption class="x"><p>[Kade, frowning and holding an art tablet, is at the computer in a similar position to Rudy in the opening shot.]</p></figcaption>
+<div class="fade">
+	<figure><picture><source media="(max-width:640px)" srcset="img/000-640.png"/><img src="img/000-full.png" alt="" class="wide"/></picture>
+		<figcaption class="x"><p>Kade, frowning and holding an art tablet, sits at the computer. The angle parallels Rudy in the opening shot, with a view from the webcam. In the background, the back wall is a pale checkerboard: the transparency grid of an art program.</p></figcaption>
+	</figure>
+	<hr/>
+	{%include panel.html 0="001" x="<p>On the screen, an art program is open to a blank canvas. On the side, the game’s assets are also onscreen, open to the background folder.]</p>"%}
+	{%include panel.html 0="002" x="<p>Abruptly Kade’s phone vibrates. Valerie’s on the other end.</p><p>Val: Say, where was that classroom again? I’m pretty sure I’ve been up and down this whole hallway at <em>least</em> a couple times, and not a single door opens!</p>"%}
+	{%include panel.html 0="003" x="<p>Cutting to Val, the hallway resembles the one in the game assets, albeit rendered in the illustrative comic style. Val tugs on a door.</p><p>Val: Seriously, why add so many useless doors.</p>"%}
+	{%include panel.html 0="004" x="<p>Kade turns away from the screen.</p><p>Kade: Okay, so, check another hallway.</p><p>Val: Been there, done that. What kind of classroom was it, again?</p>"%}
+	{%include panel.html 0="005" x="<p>Kade: You’ll know it when you find it.</p><p>Val has doubts. A lot of them.</p><p>But after a moment, she says with a smile: All right!</p>"%}
+	{%include panel.html 0="006" x="<p>I trust you.</p><p>Kade, hearing this, applies his face directly to the desk.</p>"%}
+</div>
+
+<figure class="titlecard">
+	<figcaption class="x">Further down the page is a title card, which reads “404 presents: debug.” Zoomed-in pixel art features Kade and Rudy, both framed as if on a playing card and in different outfits (description forthcoming). They each have a weapon that furthers the playing card resemblance: a knife appears to be stabbing Kade through the back of the head, and Rudy holds a large green topped with a clover. Hovering over or selecting either character reveals a link.</figcaption>
+	<a href="{{site.url}}"><div class="tc1"><img src="title1.png" src="back to 404 index"/></div></a><a href="{{site.url}}/2-debug"><div class="tc2"><img src="title2.png" src="contents"/></div></a>
 </figure>
-<hr/>
-{%include panel.html 0="01" x="<p>[An art program is open; Kade has drawn nothing. The game’s assets are also onscreen on the side.]</p>"%}
-{%include panel.html 0="02" x="<p>[Kade’s phone vibrates, startling him; Valerie’s on the other end.]</p><p>Val: Say, where was that classroom again? I’m pretty sure I’ve been up and down this whole hallway at <em>least</em> a couple times, and not a single door opens!</p>"%}
-{%include panel.html 0="03" x="<p>[Val is indeed in a long hallway, not unlike one shown in the site assets.]</p><p>Val [tugging the door]: Seriously, why add so many useless doors.</p>"%}
-{%include panel.html 0="04" x="<p>[Kade turns away from the screen.] Kade: Okay, so, check another hallway.</p><p>Val: Been there, done that. What kind of classroom was it, again?"%}
-{%include panel.html 0="05" x="<p>Kade: You’ll know it when you find it.</p><p>[Val has doubts. But after a moment, with a smile:] All right!</p>"%}
-{%include panel.html 0="06" x="<p>Val: I trust you~</p><p>[Kade applies his face directly to the desk.]</p>"%}
-{%include nav.html next="2"%}
+
+{%include nav.html next="2" color="w"%}

@@ -19,6 +19,9 @@ nav{text-align:right;} nav a{display:inline-block;} nav a:hover, nav a:focus{opa
 
 .blank{max-width:640px; margin:0 auto; padding:.5rem 1rem;} .blank a:focus{outline:#fff 1px dotted;} .blank nav{margin-top:3rem;} .blank nav img{display:inline;}
 
+.archive{padding:1rem;}
+.archive header{font-size:1.5em; margin:2em 0; text-align:center;} .archive header a{color:#fff; text-decoration:none;} .archive a:hover, .archive a:focus{color:#808080;} .archive main{line-height:0; margin:1em 0 2em; text-align:center;} .archive main a{display:inline-block;} .archive main a:hover,.archive main a:focus{outline:0; opacity:.5;}.archive img{display:inline;}
+
 .dev{background:#fff; color:#000; font-family:times,serif; font-size:1.5em;}
 .dev h1{margin-top:2em; line-height:100%;} .dev h2{margin:1.5em 0 .5em -6.25%;}
 .dev section{margin:1.5em 0 0 12.5%;}
@@ -40,6 +43,7 @@ nav{text-align:right;} nav a{display:inline-block;} nav a:hover, nav a:focus{opa
 	.scene nav{padding-bottom:1rem; padding-bottom:5vw;} .scene img{margin:1rem auto; margin:5vw auto;}
 	.game nav img{padding:0;}
 	.blank{padding:.5rem 0;}
+	.archive header,.archive main{text-align:left;}
 	.dev {padding:.5rem 1rem;}
 }
 
