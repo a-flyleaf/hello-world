@@ -20,7 +20,9 @@ nav{text-align:right;} nav a{display:inline-block;} nav a:hover, nav a:focus{opa
 .blank{max-width:640px; margin:0 auto; padding:.5rem 1rem;} .blank a:focus{outline:#fff 1px dotted;} .blank nav{margin-top:3rem;} .blank nav img{display:inline;}
 
 .archive{padding:1rem;}
-.archive header{font-size:1.5em; margin:2em 0; text-align:center;} .archive header a{color:#fff; text-decoration:none;} .archive a:hover, .archive a:focus{color:#808080;} .archive main{line-height:0; margin:1em 0 2em; text-align:center;} .archive main a{display:inline-block;} .archive main a:hover,.archive main a:focus{outline:0; opacity:.5;}.archive img{display:inline;}
+.archive header{font-size:1.5em; margin:2em 0; text-align:center;} .archive header a{color:#fff; text-decoration:none;} .archive a:hover, .archive a:focus{color:#808080;}
+.archive main{line-height:0; margin:1em 0 2em; text-align:center;} .archive img{display:inline;}
+.archive main a{display:inline-block;} .archive main a:hover,.archive main a:focus{outline:0; opacity:.5;}
 
 .dev{background:#fff; color:#000; font-family:times,serif; font-size:1.5em;}
 .dev h1{margin-top:2em; line-height:100%;} .dev h2{margin:1.5em 0 .5em -6.25%;}
@@ -28,12 +30,16 @@ nav{text-align:right;} nav a{display:inline-block;} nav a:hover, nav a:focus{opa
 .dev blockquote{font-style:italic; margin-bottom:1em;}
 .dev img{display:inline; pointer-events:auto;}
 .dev hr{height:initial; border:1px inset; margin:1em 0 0; opacity:.5;}
-.dev ul{font-size:.75em; line-height:1.35em;} .dev ul a{color:#000; text-decoration:none; border-bottom:1px solid #b7b7b7;} .dev ul a:hover,.dev ul a:focus{color:#00cc00; border-color:#efefef;}
+.dev ul{font-size:.75em; line-height:1.35em;} .dev main a{color:#000; text-decoration:none; border-bottom:1px solid #b7b7b7;} .dev main a:hover,.dev main a:focus{color:#00cc00; border-color:#efefef;}
 .dev footer{font-size:.5em; text-align:right; opacity:.25;}
 
 .dev article h2{margin:1em 0 0; font-size:inherit;}
 .dev article ul{margin-left:1em; font-size:inherit;}
 .dev article figure{margin:.5em auto; text-align:center;}
+
+.scx{background:#fff; padding-top:1rem;}
+.scx nav a:first-child{float:left;}
+.back{padding-bottom:3rem;}
 
 @media only screen and (min-width:640px){
 	hr{height:.5rem;}
@@ -45,6 +51,8 @@ nav{text-align:right;} nav a{display:inline-block;} nav a:hover, nav a:focus{opa
 	.blank{padding:.5rem 0;}
 	.archive header,.archive main{text-align:left;}
 	.dev {padding:.5rem 1rem;}
+	
+	.scx {padding-top:2.5rem;}
 }
 
 @media only screen and (min-width:1000px){
