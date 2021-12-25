@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<title>404{{layout.title}}/{{page.title}}</title>
-	<link href="{%include url.html%}/site-assets/default.css" type="text/css" rel="stylesheet"/>
-	<style>{{page.css}}</style>
+	<title>404{{layout.title}}{%if page.title%}/{{page.title}}{%endif%}</title>
+	<link href="{%include url.html%}/site-assets/default.css" type="text/css" rel="stylesheet"/>{%if page.css%}
+	<style>{{page.css}}</style>{%endif%}
 </head>
 
-<body class="{{page.pagetype}}">{{content}}</body>
+<body{%if page.pagetype%} class="{{page.pagetype}}"{%endif%}>{{content}}</body>
 </html>
