@@ -7,6 +7,6 @@ title: project-status
 - Fixed link in the previous post, which has been broken since publication.
 - Removed slash from index tab title.
 
-<figure><img src="2021-12-25.png" alt="Happy holidays from the 404 gang!"/></figure>
+<figure><img src="{%include url.html%}/bonus/art/img/2021-12-25.png" alt="Happy holidays from the 404 gang!"/></figure>
 
 - Added [bonus art]({%include url.html%}/bonus/art) & new drawings.

@@ -2,12 +2,14 @@
 layout: default
 title: bonus/art
 pagetype: dev blank
-css: body{background:#707070 !important; color:#fff !important;} ::selection{background:rgba(0,0,0,.25);} h2{margin:1em 0 .25em 0 !important;} main a{color:inherit !important;} main a:hover,main a:active,main a:focus{opacity:.5;} figure,.thumbnails{line-height:0;} .thumbnails a{border:0 !important; font-size:0;} .thumbnails a:hover,.thumbnails a:active,.thumbnails a:focus{opacity:.5;}
+css: body{background:#707070 !important; color:#fff !important;} ::selection{background:rgba(0,0,0,.25);} h2{margin:1em 0 .25em 0 !important;} main a{color:inherit !important;} main a:hover,main a:active,main a:focus{opacity:.5;} figure,.thumbnails{line-height:0;} .thumbnails a{border:0 !important; font-size:0;} .thumbnails a:hover,.thumbnails a:active,.thumbnails a:focus{opacity:.5;} .page img{outline:2px solid; outline-color:#707070; outline-offset:-4px;} iframe{margin:2rem auto 0; border:0;}
 ---
 <header>
 	<h1><a href="{%include url.html%}" class="index">404</a>/<a href="{%include url.html%}/bonus" class="index">bonus</a>/art</h1>
 	<p>Miscellaneous drawings of dubious canonicity.<br/>
-	Images open in new tabs. Captions are in the alt text, for now.</p>
+	Images open in new tabs. Captions are in the alt text, for now.
+	<!--for later:
+	Images open in new tabs; borders indicate a separate page. Other captions are in the alt text, for now.--></p>
 </header>
 
 <main>
@@ -129,6 +131,8 @@ css: body{background:#707070 !important; color:#fff !important;} ::selection{bac
 		%}
 	</div>
 	
+	<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/2jqZbKiEBnM?modestbranding=1&rel=0"></iframe>
+	
 	<h2>2020</h2>
 	<div class="thumbnails">
 		{%include art.html
@@ -186,8 +190,17 @@ css: body{background:#707070 !important; color:#fff !important;} ::selection{bac
 		%}
 	</div>
 	
+	<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/bBG5XyzkBLM?modestbranding=1&rel=0"></iframe>
+	<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/GH9AK_U666c?start=72&modestbranding=1&rel=0"></iframe>
+	
 	<h2>2021+</h2>
-	<p>[TBA]</p>
+	<div class="thumbnails">
+		{%include art.html
+				date="2021-12-25"
+				file="png"
+				caption="Happy holidays from the 404 gang!"
+			%}
+	</div>
 </main>
 
 <hr style="margin-top:2em;"/>
