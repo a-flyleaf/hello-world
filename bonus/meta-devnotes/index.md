@@ -2,9 +2,9 @@
 title: meta-devnotes
 layout: dev
 pagetype: blank dev
-css: blockquote,ul{margin-left:12.5%; font-style:normal !important;} h2{margin-left:0 !important; margin-top:1em !important;} li{margin:.25em 0;} ul>li>ul{font-size:1em !important; margin-left:1em;} .nah{text-transform:uppercase; background:#000;} .nah::selection{color:#fff;} h3{margin-left:12.5%; padding-top:.5rem;} h2+h3{margin-top:-1rem;}
+css: blockquote,ul{margin-left:12.5%; font-style:normal !important;} h2{margin-left:0 !important; margin-top:1em !important;} li{margin:.25em 0;} ul>li>ul{font-size:1em !important; margin-left:1em;} .nah{text-transform:uppercase; background:#000;} .nah::selection{color:#fff;} h3{margin-left:12.5%; padding-top:.5rem;} h2+h3{margin-top:-1rem;} nav a{border:0 !important;}
 ---
-> The linear narrative, more or less, from memory as of 2022-02-17. (<a href="https://a-flyleaf.github.io/blog/project-rambling" target="_blank">"Why this?"</a>)
+> The linear narrative, more or less, from memory as of 2022-02-17. <a href="https://a-flyleaf.github.io/blog/project-rambling" target="_blank">Long ramble</a> short, the author has been briefly resurrected to plotdump.
 >
 > Not to be confused with [the "devnotes" in-story]({%include url.html%}/1-reset/4).
 
@@ -68,3 +68,5 @@ css: blockquote,ul{margin-left:12.5%; font-style:normal !important;} h2{margin-l
 - There are unused graphics that Val pieced together to suggest that, at some point, there was a scene in which Cyrus snapped and gave Rudy a black eye (of the bruise kind, not glitched). Val's not happy about it, either.
 - That's it. Game closes/crashes and auto-deletes.
 - In a text file left behind, Val apologizes. She has a few regrets.
+
+{%include nav.html next="postgame"%}
