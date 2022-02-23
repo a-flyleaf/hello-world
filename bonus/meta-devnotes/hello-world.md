@@ -27,3 +27,21 @@ css: blockquote,ul{margin-left:12.5%; font-style:normal !important;} h2{margin-l
 
 ## 5+
 - \[bot arrrrrc]
+
+
+
+6
+-Excuse me, I was doing *something* that time, you know. (panel: KC baffled by the new world)
+-yeah, making all these weird-ass robo-clones that literally no one asked for. (panel: Val introducing the bots)
+-If I may play antagonist’s advocate, they *did* do their jobs… exceptionally well. (panel: the four navigating a treacherous AI-looking landscape)
+-yea yea and while u three had crises or w/e i studied the FRIENDSHIP (panel: ru-d)
+
+[interlude: that one old drawing of the four talking to their bot selves]
+
+7
+-And so, after much soul-searching and glitch-fixing, we’ve arrived where we are today!
+-…right, and i am *not* going to argue that, because we’ve all learned… very important… life lessons….
+-Not that anything is that simple. After all, the whole point of a life lesson is that it necessitates awareness and communica—
+-hey speakin of communication CHECK OUT OUR NEW OCS
+
+“8” is four links: skip to the first version, what’s this/what happened, blog, bonus (to be replaced with more/other stuff?)
