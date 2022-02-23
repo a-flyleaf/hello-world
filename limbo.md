@@ -1,0 +1,64 @@
+---
+title: project-status
+layout: dev
+pagetype: blank dev
+css: blockquote{margin:.5em 0 0 12.5%; font-size:.85em; font-style:normal !important;} figure{margin:1em 0;} .noborder{border:0 !important;} figcaption{font-size:.85em; font-style:italic; text-align:center; color:#808080;} figcaption a{color:inherit !important;} a:hover,a:focus,a:active{color:inherit !important; opacity:.5;} sup{vertical-align:top;} h2,section{margin-left:0 !important;} section{font-size:.85em; line-height:145%; padding:0 1em;} section p{text-indent:-.85em;} main hr{width:50%; margin:1.25em auto 0 auto !important;} h2{margin-top:0 !important;} section s{padding-right:.25em;}
+---
+> Originally posted <a href="https://a-flyleaf.github.io/blog/project-rambling" target="_blank">December 22, 2021</a> after eight months of radio silence. Revised for standalone reading February 23, 2022.
+>
+> Links open in new tabs.
+
+Imagination is indefinite. Creativity is a limitless resource, making things is cool, and ideas that build and transform and intermingle and what have you—it's all *super heckin rad*, and I love it. The Internet has made this easier than ever, from <a href="https://www.youtube.com/watch?v=mFNwLpMkAiM" target="_blank">remixes of obscure band tunes that turn into animation trends</a> to <a href="https://www.frieze.com/article/how-cecelia-condits-video-art-became-viral-curse-teens-tiktok" target="_blank">avant-garde short films from the 80s finding new life in Tik-Tok phenomenons</a>. It's crazy. I'm here for it. I encourage it!
+
+Theoretically, this is the thesis of <i>404</i>, the story-project-thing sitting at <a href="https://github.com/a-flyleaf/hello-world" target="_blank">this here hello-world repository</a>. It was first conceived in late 2018 as a fanfic exploring ramifications on character development, because I was having trouble accepting the popular <a href="https://fanlore.org/wiki/Fanon" target="_blank">fanon</a> that, once the curtain closed, the characters would simply *get along* with no further complications despite everything that had happened. Over time, the idea turned into a sequence over a sequence over a sequence over a sequence—the core of which remained the character interaction.
+
+<a href="https://a-flyleaf.github.io/stardust/" target="_blank">Here's something I drew in October 2019</a>, when I was probably in the middle of some sort of brainfog. It's not related to <i>404</i>, but is more or less the tone I imagined it going out on. (The characters being blue- and red-themed is coincidental, "void" and all.)
+
+<figure><a href="https://a-flyleaf.github.io/stardust" target="_blank" class="noborder"><img src="https://a-flyleaf.github.io/stardust/ishouldcheckoutwaitingforgodot.png" alt=""></a>
+	<figcaption>Since it's 16 images total, it got <a href="https://a-flyleaf.github.io/stardust" target="_blank">its own page</a>.</figcaption>
+</figure>
+
+It doesn't have a lot to do with that creative celebration thesis, does it?
+
+Truth is, *that* idea didn't kick in until January 2020, when I was introduced to the anime <a href="https://www.youtube.com/watch?v=y1xAzPlh4i0" target="_blank"><i>Keep Your Hands Off Eizouken!</i></a>. The visuals *enthralled* me. It's a love letter to animation itself, from expansive worlds to individualized characters (and even the inevitable but, to some degree, necessary aspects of business management). And I thought, y'know, it'd be kinda cool if <i>404</i> explored similar territory, but for the web.
+
+Websites are inherently fluid. Ignoring social media for a minute, consider the Old Web™, when people hacked HTML and CSS together from scratch to display all their content *just* as they wanted (within the constraints of code, at least. This whole era was before my time, but definitely one I admire <a href="https://neocities.org/browse?tag=retro" target="_blank">in spirit</a>). Why shold exploring a site be linear as a scrolling feed when there are *links*? Sometimes those links are *hidden*! Even the URLs can be interesting! On a less niche level, even <a href="https://en.wikipedia.org/wiki/Wiki_rabbit_hole" target="_blank">Wikipedia can be a rabbit hole</a>. Wouldn't a web“comic” be the *perfect* medium to explore an idea like this?
+
+As it happened, I'd already planned on using hidden pages and file bonuses in <i>404</i>; its fanfic-era source material, <a href="https://en.wikipedia.org/wiki/Doki_Doki_Literature_Club!" target="_blank"><i>Doki Doki Literature Club!</i></a>, hinged much of its "horror" on the player's familiarity with computer mechanics. As the game progresses, the player is occasionally prompted to see if anything's changed in the game folder, with oddities such as surprise pictures and deleted folders enhancing the narrative. While I can't exactly grab someone's computer username from a browser (or if I *can*, it seems invasive enough I haven't looked into it), I can use similar ideas to inform my... storytelling?
+
+But here's the thing.
+
+The core aspect of <i>DDLC</i> that interested me was the idea of meta-narrative awareness: one character is aware she's trapped in a game, one with a predictable ending which goes poorly for her. However, there are never any allusions to the game's real-world creator(s); there's abstract talk of scripts and code, but the actual author remains a non-person. Which is good, far as this self-contained gimmick is concerned; it keeps the audience's attention away from thinking of giant AI conspiracy theories (or at least *I* didn't), and directly on the shock and horror of what's happening in what previously presented itself as a cute, innocent game.
+
+The shock value was of little interest to me in <i>404</i>; right from the start, after all, the core game was a backstory, the foundation of fan-fiction. Again, I was more interested in the ramifications on the characters. It made sense to continue drawing as little attention to the actual real-world author as possible, even once all characters had attained "meta-awareness." No one's here for the Flyleaf behind the curtain, and even though the site would inevitably be hosted on a-flyleaf dot github dot io, I wanted to keep other traces of myself minimal. I even made a separate email address just for the project, and uploaded very little <i>404</i>-related art to other platforms, to maintain some illusion of an authorless story.
+
+This, along with what I had planned for the narrative, necessitated the characters also not realizing they were "in" a website. There is one section in which the characters explicitly address a hypothetical reader, the "about" pages, because their in--story archive of the entire game had just been wiped and they wanted some trace of their existence... in existence. Honestly, I had to revisit <a href="{%include url.html%}/1-reset/1" target="_blank">the page</a> to double-check. It was *that* insignificant a footnote, for something that essentially starts the story. (Hey, doesn't "starts the story" sound kind of linear?)
+
+There are two "thesis statements" at play in the long-term trajectory for <i>404</i> (which, frankly, is incomplete; I have a rough idea of three installments after "debug," loose ideas for four more after, and then it's all blended together to memory). The first is that championing of creativity—something of an afterthought, but one that's not wholly *in*compatible with what the story was. Besides, fun as I find them, I don't want the story to be *quite* as surreal and ungrounded as, say, <a href="https://www.youtube.com/playlist?list=PLhPaJURyApsoMQDaoft5t0l0iAwUOLtlM" target="_blank">the <i style="text-transform:uppercase;">Ena</i> series</a> or (what used to be) <a href="https://web.archive.org/web/20210324034654/https://strangers.atrocityland.com/" target="_blank">the Goodbye Strangers</a> project<span id="insp">;</span><sup><a href="#footnote3">‽</a></sup> there's still a core cast, and they have their linear histories and hang-ups. (By the way, I should note that I didn't find either of these until well after <i>404</i> had faded from my creative foreground, though I immediately thought they'd both be A+ inspirations for a hypothetical reboot/rewrite/revamp/whatever; more on this later.) In the end (and note, again, the linear implications of an *end*, the characters accept that, not only do they *have* to build their world, this isn't a burden but a *blessing*, and it is <em style="text-transform:uppercase;font-style:normal;">high</em> time they had fun with it.
+
+These theses get along about as well as Rudy and Kade. When they're actively working together, it's less out of collaboration and more because one has ceded to the other's will; "debug" concludes with Kade finally deciding to worldbuild with Rudy, and all is well. (<span id="note">And then they get stuck in the block dimension.</span><sup><a href="#footnote" class="noborder">*</a></sup> But I digress.)
+
+I dunon, man. They totally *could* work together, as could any ideas with the right finangling. But frankly, webcomics is hard, and I can't explain how long this has been dragged out in any way except that my creative focus has latched onto something else. I think, for my own peace of mind, it's time to call this An Attempt, and stop letting it haunt me.
+
+Well, kind of.
+
+I'm still totally down to revisit the idea, incorporating what's already there or tossing/retconning it entirely. Unlike <a href="https://a-flyleaf.github.io/projects/tfe" target="_blank">my first project</a>, which I straight-up lost interst in continuing when I tired of untangling all its eventual plot threads and tonal inconsistencies, I would definitely *not* say I've lost interest in <i>404</i>. These pixel people are still very near and dear to my (not-card-suit-shaped-)heart, and I hardly feel done playing with their world. What this means for "the story" remains unclear.
+
+In any case, the author is still very much dead, so to speak. I'm not going to be interacting with the characters in author notes any time soon, even if it *did* start out as a big indulgent fanfic. What I *am* thinking is that I just say to hell with linear narrative, update whatever whenever, and see where it takes me.
+
+<figure><img src="{%include url.html%}/1-reset/img/36-r.png" alt=""/><figcaption>this looks like ass on a white background lmao</figcaption></figure>
+
+Takes *them*, the characters? Whatever; forget about only updating on 4/04s and 8/08s, as originally planned, at any rate. That was *only* sustainable if I actually had substantial updates to provide on those dates, <span id="plan">which has evidently not gone according to keikaku</span>.<sup><a href="#footnote2" class="noborder">**</a></sup>
+
+So what's next? ~We'll see~
+
+<hr/>
+
+<section>
+	<h2>footnotes</h2>
+	<p><a href="#note" id="footnote" class="noborder">*</a> Then they have to build a literal bridge back through the void, while the figurative (already extremely tenuous, more like a tightrope than a) bridge between Val and Cyrus goes up in flames, so by the time the siblings get back she’s tried to remove herself from the picture again. Then before the others can find or stop her, Val’s managed to create four “bots” in their own images, which she expects will do all the tedious world-building & -management so none of them will ever have to work another day on anything in their entire lives. Then, inevitably, the bots decide to fuck around with free will, and meanwhile (intra)personal crises on the base fours’ behalves are had. Then I lose track of the story. <a href="#note">↑</a></p>
+	
+	<p><a href="#note2" id="footnote2" class="noborder">**</a> <s><a href="https://knowyourmeme.com/memes/just-according-to-keikaku" target="_blank"><i>Keikaku</i> means “plan”</a></s> Plus, you see <a href="{%include url.html%}/blog" target="_blank">that one fix on 7/15</a>? That was supposed to be on 7/14, not because either of those numbers are story-relevant but because I just liked the look of them—except by the time I’d finished troubleshooting and pushed the commit, it was past midnight. (edit: Incidentally, that also happened to the original blog post!) Alas, even in its “purest” state, <i>404</i> is not immune to real-life <a href="https://tvtropes.org/pmwiki/pmwiki.php/Main/WordofGod" target="_blank">Shenanigans of “God.”</a></p>
+	
+	<p><a href="#insp" id="footnote3" class="noborder">‽</a> Forgot to mention this in the original post, but between <i>404</i>’s start (2018–20, depending) and the time of writing (2022), I've also discovered the fever dream of a website that is <a href="https://ranfren.neocities.org/" target="_blank">Ranfren</a>. <em>That</em> sure is a thing. I think a totally, purely, utterly hypothetical <i>404</i> revamp could look something like it…</p>
+</section>
