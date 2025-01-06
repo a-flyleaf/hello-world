@@ -22,13 +22,13 @@ By the end of 2018, most if not all core game changes had been established, incl
 
 There's a lot of magic behind-the-scenes <a href="https://knowyourmeme.com/memes/how-to-draw-an-owl" target="_blank" class="ext">Write The Rest Of The Fucking Story</a> stuff that goes on in 2019–2020. Some landmarks:
 
-<b>2019-01-16</b>: Coded a page test using the day2 bonus + <a href="http://a-flyleaf.glitch.me/reboot/testrun/scene2.html" target="_blank">context</a>.
+<b id="glitch">2019-01-16</b>: Coded a page test using the day2 bonus + <a href="glitch-reboot/testrun/scene2.html" target="_blank">context</a>.
 
 <b>2019-03-06</b>: <a href="https://a-flyleaf.github.io/shriblets/2019-03-06-songwall/" target="_blank" class="ext">songwall.html</a>
 
 \[some point between <b>06-23</b> and <b>07-07</b>]: Initial concepts for the "bot arc."
 
-<b>2019-07-14</b>: <a href="http://a-flyleaf.glitch.me/reboot/sibling-comix/1.html" target="_blank">Sibling comix saga</a>, the first.
+<b>2019-07-14</b>: <a href="glitch-reboot/sibling-comix/1.html" target="_blank">Sibling comix saga</a>, the first.
 
 <b>2019-07-18</b>: Sketch for the "menu" art.
 

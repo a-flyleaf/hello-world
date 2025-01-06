@@ -1,0 +1,5 @@
+/*tfw winging everything and layout gets Hecked Up*/
+
+.panel:nth-child(2) {background: 0; padding: 5rem 0;}
+.panel:nth-child(3), .panel:nth-child(6) {margin-bottom: 3rem;}
+.panel:nth-child(8) {padding: 5rem 0;}

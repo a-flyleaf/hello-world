@@ -1,0 +1,28 @@
+---
+layout: none
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>sibling comix!</title>
+<style>
+  * {margin: 0; padding: 0;}
+  main {margin: 0 auto; text-align: center; max-width: 650px; padding: 3em 0;}
+  img {max-width: 100%; height: auto;}
+  #buttons {margin-top: .5em; padding: 0 8px; overflow: auto;} #back {float: left;} #next {float: right;} #buttons a:hover {opacity: .5;}
+</style>
+</head>
+
+<body>
+<main>
+  <figure><img src="2.png" alt="2"/></figure>
+  <div id="buttons">
+    <a href="1.html" id="back"><img src="{%include url.html%}/site-assets/button-l.png" alt="back"/></a>
+    <a href="3.html" id="next"><img src="{%include url.html%}/site-assets/button-r.png" alt="next"/></a>
+  </div>
+  <nav><a href="notyet.html">?</a></nav>
+</main>
+</body>
+</html>
